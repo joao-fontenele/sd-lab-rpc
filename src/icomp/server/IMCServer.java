@@ -40,6 +40,8 @@ public class IMCServer extends Server {
 
 			try {
 				serveIMC(socket);
+			} catch (NumberFormatException e) {
+				System.out.println("client sent invalid args");
 			} finally {
 				socket.close();
 			}
