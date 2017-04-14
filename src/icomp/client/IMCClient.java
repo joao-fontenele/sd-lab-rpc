@@ -27,7 +27,7 @@ public class IMCClient extends Client {
 
 		System.out.println("Requisitando o IMC ...");
 		String response = client.requestIMC(requestMessage);
-		System.out.println(response);
+		System.out.println(response.trim());
 
 		System.out.println("\nFechando conexão com o servidor ...");
 		client.closeConnection();
