@@ -1,0 +1,20 @@
+Alunos:
+	Felipe Guimarães
+	João Paulo F. Brito
+	Max
+
+para rodar entre na pasta com os binários, neste caso a pasta bin
+
+
+Servidor de cálculo
+$ java icomp.server.AverageServer <[port]>
+
+Cliente de cálculo
+$ java icomp.client.AverageClient <serverIP> <serverPort>
+
+
+Servidor de ls
+$ java icomp.server.LsServer <[port]>
+
+Cliente de ls
+$ java icomp.client.LsClient <serverIP> <serverPort> <targetDirectory>
