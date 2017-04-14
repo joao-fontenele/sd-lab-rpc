@@ -52,7 +52,7 @@ public enum IMCResults {
 
 		// only works because the results are ordered
 		for (IMCResults result : IMCResults.values()) {
-			if (result.imcLB > imc && imc < result.imcUB) {
+			if (result.imcLB <= imc && imc < result.imcUB) {
 				return result.description;
 			}
 		}
